@@ -6,5 +6,21 @@ def fibonacci(n):
     
     return fibonacci(n-1)+fibonacci(n-2)
 
+def imprimeSequecia(n):
+    for i in range(0, n):
+        print(fibonacci(i))
+
 # teste
-print(fibonacci(8))
+imprimeSequecia(9)
+
+# imprimeSequecia(9)
+# resultado:
+# 0
+# 1
+# 1
+# 2
+# 3
+# 5
+# 8
+# 13
+# 21
