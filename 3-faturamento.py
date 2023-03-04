@@ -121,7 +121,7 @@ faturamentoMensal = [
 	}
 ]
 
-def ExlcuiValoresZerados(arr):
+def exlcuiValoresZerados(arr):
     newArr = []
 
     for i in range(0, len(arr)):
